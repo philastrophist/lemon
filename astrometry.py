@@ -186,7 +186,6 @@ def astrometry_net(path, ra = None, dec = None, radius = 1,
             '--dir', output_dir,
             '--no-plots',
             '--new-fits', output_path,
-            '--no-fits2fits',
             '--overwrite']
 
     # -3 / --ra <degrees or hh:mm:ss>: only search in indexes within 'radius'
